@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2014-2015 The DevMine authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -15,9 +20,9 @@ import (
 	"github.com/golang/glog"
 	_ "github.com/lib/pq"
 
-	"github.com/DevMine/api-server/cache"
-	"github.com/DevMine/api-server/config"
-	"github.com/DevMine/api-server/srv"
+	"github.com/sniperkit/snk.fork.api-server/cache"
+	"github.com/sniperkit/snk.fork.api-server/config"
+	"github.com/sniperkit/snk.fork.api-server/srv"
 )
 
 func fatal(a ...interface{}) {

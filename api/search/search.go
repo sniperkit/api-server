@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2014-2015 The DevMine authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -12,11 +17,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/DevMine/api-server/cache"
-	"github.com/DevMine/api-server/score"
-	"github.com/DevMine/api-server/srv/context"
-	"github.com/DevMine/api-server/util/httputil"
-	"github.com/DevMine/api-server/util/json"
+	"github.com/sniperkit/snk.fork.api-server/cache"
+	"github.com/sniperkit/snk.fork.api-server/score"
+	"github.com/sniperkit/snk.fork.api-server/srv/context"
+	"github.com/sniperkit/snk.fork.api-server/util/httputil"
+	"github.com/sniperkit/snk.fork.api-server/util/json"
 )
 
 // numberOfResults represents the number of results to return

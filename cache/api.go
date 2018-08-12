@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2014-2015 The DevMine authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -7,7 +12,7 @@ package cache
 import (
 	"database/sql"
 
-	"github.com/DevMine/api-server/model"
+	"github.com/sniperkit/snk.fork.api-server/model"
 )
 
 // loadStats loads some database related statistics.

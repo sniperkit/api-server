@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2014-2015 The DevMine authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -12,8 +17,8 @@ import (
 
 	mx "code.google.com/p/biogo.matrix"
 
-	"github.com/DevMine/api-server/cache"
-	"github.com/DevMine/api-server/model"
+	"github.com/sniperkit/snk.fork.api-server/cache"
+	"github.com/sniperkit/snk.fork.api-server/model"
 )
 
 // constructWeightVector creates the weight vector from default weight values

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2014-2015 The DevMine authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -15,15 +20,15 @@ import (
 	"github.com/golang/glog"
 	"github.com/gorilla/mux"
 
-	"github.com/DevMine/api-server/api"
-	"github.com/DevMine/api-server/api/features"
-	repos "github.com/DevMine/api-server/api/repositories"
-	"github.com/DevMine/api-server/api/search"
-	"github.com/DevMine/api-server/api/stats"
-	"github.com/DevMine/api-server/api/users"
-	"github.com/DevMine/api-server/config"
-	"github.com/DevMine/api-server/srv/context"
-	"github.com/DevMine/api-server/util/httputil"
+	"github.com/sniperkit/snk.fork.api-server/api"
+	"github.com/sniperkit/snk.fork.api-server/api/features"
+	repos "github.com/sniperkit/snk.fork.api-server/api/repositories"
+	"github.com/sniperkit/snk.fork.api-server/api/search"
+	"github.com/sniperkit/snk.fork.api-server/api/stats"
+	"github.com/sniperkit/snk.fork.api-server/api/users"
+	"github.com/sniperkit/snk.fork.api-server/config"
+	"github.com/sniperkit/snk.fork.api-server/srv/context"
+	"github.com/sniperkit/snk.fork.api-server/util/httputil"
 )
 
 type handler func(c *context.Context, w http.ResponseWriter, r *http.Request)

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2014-2015 The DevMine authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -6,7 +11,9 @@
 // error but may panic if something bad occurs.
 package json
 
-import "encoding/json"
+import (
+	"encoding/json"
+)
 
 // MarshalPanic marshalizes the interface v into JSON.
 // If an error occurs in the process, it panics.

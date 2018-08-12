@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2014-2015 The DevMine authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -12,9 +17,9 @@ import (
 
 	"github.com/golang/glog"
 
-	"github.com/DevMine/api-server/model"
-	"github.com/DevMine/api-server/util/pgutil"
-	"github.com/DevMine/api-server/util/typeutil"
+	"github.com/sniperkit/snk.fork.api-server/model"
+	"github.com/sniperkit/snk.fork.api-server/util/pgutil"
+	"github.com/sniperkit/snk.fork.api-server/util/typeutil"
 )
 
 // CreateGhOrgsFromPGArray generates a slice of GhOrganization from a

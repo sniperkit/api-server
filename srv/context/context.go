@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2014-2015 The DevMine authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -11,7 +16,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/DevMine/api-server/util/typeutil"
+	"github.com/sniperkit/snk.fork.api-server/util/typeutil"
 )
 
 // Context represents a context of a query to the API server that is meant
